@@ -1,0 +1,15 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "markdown-folder-to-html Posts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "markdown-folder-to-html": "^2.4.0"
+  }
+}

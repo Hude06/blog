@@ -1,0 +1,56 @@
+{
+  "name": "markdown-folder-to-html",
+  "version": "2.4.0",
+  "description": "Convert a folder with files and markdown documents to an HTML site",
+  "main": "cli.js",
+  "bin": {
+    "markdown-folder-to-html": "./cli.js"
+  },
+  "scripts": {
+    "start": "npm run compile && node cli.js",
+    "compile": "tsc",
+    "build": "cp README.md docs/index.md && npm start",
+    "deploy": "npm run build && gh-pages -d _docs",
+    "prepare-to-publish": "npm run test && npm run deploy",
+    "format": "prettier --write '{lib,test}/**/*.ts' ./cli.ts",
+    "test": "npm run compile && tape test/*.js | tap-dot",
+    "docs": "markdown-folder-to-html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joakin/markdown-folder-to-html.git"
+  },
+  "keywords": [
+    "markdown",
+    "md",
+    "html",
+    "static",
+    "site",
+    "folder",
+    "cli",
+    "simple"
+  ],
+  "author": "Joaquin Oltra <joaquin@chimeces.com> (http://chimeces.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joakin/markdown-folder-to-html/issues"
+  },
+  "homepage": "https://github.com/joakin/markdown-folder-to-html#readme",
+  "dependencies": {
+    "markdown-it": "^8.4.2",
+    "markdown-it-anchor": "^5.2.4",
+    "shelljs": "^0.8.3"
+  },
+  "devDependencies": {
+    "@types/markdown-it": "0.0.8",
+    "@types/markdown-it-anchor": "^4.0.3",
+    "@types/node": "^10.14.4",
+    "@types/shelljs": "^0.8.5",
+    "@types/tape": "^4.2.33",
+    "gh-pages": "^2.1.1",
+    "prettier": "^1.18.2",
+    "tap-dot": "^2.0.0",
+    "tape": "^4.11.0",
+    "typescript": "^3.5.3"
+  }
+}
