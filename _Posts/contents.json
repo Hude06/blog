@@ -2,6 +2,10 @@
   "paths": [
     {
       "type": "file",
+      "value": "index.md"
+    },
+    {
+      "type": "file",
       "value": "first-post.md"
     },
     {
@@ -11,18 +15,25 @@
   ],
   "contents": [
     {
+      "path": "index.md",
+      "url": "index.html",
+      "content": "Hello Guys, My name is Jude Hill and this is my blog.",
+      "html": "<p>Hello Guys, My name is Jude Hill and this is my blog.</p>\n",
+      "id": 0
+    },
+    {
       "path": "first-post.md",
       "url": "first-post.html",
       "content": "## This is the first post",
       "html": "<h2 id=\"this-is-the-first-post\">This is the first post <a class=\"heading-anchor-permalink\" href=\"#this-is-the-first-post\">#</a></h2>\n",
-      "id": 0
+      "id": 1
     },
     {
       "path": "second-post.md",
       "url": "second-post.html",
       "content": "## This is the seond post\nI love using markdown",
       "html": "<h2 id=\"this-is-the-seond-post\">This is the seond post <a class=\"heading-anchor-permalink\" href=\"#this-is-the-seond-post\">#</a></h2>\n<p>I love using markdown</p>\n",
-      "id": 1
+      "id": 2
     }
   ]
 }
