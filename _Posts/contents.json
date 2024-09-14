@@ -6,34 +6,23 @@
     },
     {
       "type": "file",
-      "value": "first-post.md"
-    },
-    {
-      "type": "file",
-      "value": "second-post.md"
+      "value": "What Makes A Good Game.md"
     }
   ],
   "contents": [
     {
       "path": "index.md",
       "url": "index.html",
-      "content": "Hello Guys, My name is Jude Hill and this is my blog.",
-      "html": "<p>Hello Guys, My name is Jude Hill and this is my blog.</p>\n",
+      "content": "# Jude Makes - The Lost Devloper\n\n### Hey guys, So this is my blog. Yeah ... another blog. Lets see if I stick to it this time.\n\n## Current Interests \n- 2024-09-13 Game Dev, Tiny Games Dev, JS13k Comp. 3D Printing. ",
+      "html": "<h1 id=\"jude-makes---the-lost-devloper\">Jude Makes - The Lost Devloper <a class=\"heading-anchor-permalink\" href=\"#jude-makes---the-lost-devloper\">#</a></h1>\n<h3 id=\"hey-guys%2C-so-this-is-my-blog.-yeah-%E2%80%A6-another-blog.-lets-see-if-i-stick-to-it-this-time.\">Hey guys, So this is my blog. Yeah … another blog. Lets see if I stick to it this time. <a class=\"heading-anchor-permalink\" href=\"#hey-guys%2C-so-this-is-my-blog.-yeah-%E2%80%A6-another-blog.-lets-see-if-i-stick-to-it-this-time.\">#</a></h3>\n<h2 id=\"current-interests\">Current Interests <a class=\"heading-anchor-permalink\" href=\"#current-interests\">#</a></h2>\n<ul>\n<li>2024-09-13 Game Dev, Tiny Games Dev, JS13k Comp. 3D Printing.</li>\n</ul>\n",
       "id": 0
     },
     {
-      "path": "first-post.md",
-      "url": "first-post.html",
-      "content": "## This is the first post",
-      "html": "<h2 id=\"this-is-the-first-post\">This is the first post <a class=\"heading-anchor-permalink\" href=\"#this-is-the-first-post\">#</a></h2>\n",
+      "path": "What Makes A Good Game.md",
+      "url": "What Makes A Good Game.html",
+      "content": "# What does make a good game. I have no Idea but lets see ...\n\n## Story\n    - First I think the story is one of the most important things in a game. The hard part of the story is implementing it. The idea thats easy, Putting it in the game not so much\n\n## Feel\n    - Ive been doing some reaserch on diferent things people use in there games to make the player feel more fluid. Like coyote time in a platformer game where the player can still jump even if there a couple frames of the platform\n    - You can also do small things like give the player a diferent jump height by how long they are holding the space down for. Just keep adding -velocity until you hit a max height and if you let go just stop\n## Art\n    - Art is a huge things, Do I make good art. Hell nah, But there are some small things I want to start doing to make the player feel more emersed and not just feel like the game is plain. First, if you just have a background some clouds anything. So much better. Maybe lets make the clouds scroll really slowly. What does that remid you of, LIFE?? .. A video game is kida just like real life\n## Sound / Particals\n    - Particals just suck, If you have to make a partical engine you will agree with me. There cool and all but there are so many peramiters its crazy. But yeah they can make a huge diferentce in a jump or when you shoot. You can also add a small jump noice or soundeffects for shooting. Lets your mind run wild\n\n\nAll in all these are some simple things that I need to work on that I though I would share. Lets see if anyone is even reading this ...",
+      "html": "<h1 id=\"what-does-make-a-good-game.-i-have-no-idea-but-lets-see-%E2%80%A6\">What does make a good game. I have no Idea but lets see … <a class=\"heading-anchor-permalink\" href=\"#what-does-make-a-good-game.-i-have-no-idea-but-lets-see-%E2%80%A6\">#</a></h1>\n<h2 id=\"story\">Story <a class=\"heading-anchor-permalink\" href=\"#story\">#</a></h2>\n<pre><code>- First I think the story is one of the most important things in a game. The hard part of the story is implementing it. The idea thats easy, Putting it in the game not so much\n</code></pre>\n<h2 id=\"feel\">Feel <a class=\"heading-anchor-permalink\" href=\"#feel\">#</a></h2>\n<pre><code>- Ive been doing some reaserch on diferent things people use in there games to make the player feel more fluid. Like coyote time in a platformer game where the player can still jump even if there a couple frames of the platform\n- You can also do small things like give the player a diferent jump height by how long they are holding the space down for. Just keep adding -velocity until you hit a max height and if you let go just stop\n</code></pre>\n<h2 id=\"art\">Art <a class=\"heading-anchor-permalink\" href=\"#art\">#</a></h2>\n<pre><code>- Art is a huge things, Do I make good art. Hell nah, But there are some small things I want to start doing to make the player feel more emersed and not just feel like the game is plain. First, if you just have a background some clouds anything. So much better. Maybe lets make the clouds scroll really slowly. What does that remid you of, LIFE?? .. A video game is kida just like real life\n</code></pre>\n<h2 id=\"sound-%2F-particals\">Sound / Particals <a class=\"heading-anchor-permalink\" href=\"#sound-%2F-particals\">#</a></h2>\n<pre><code>- Particals just suck, If you have to make a partical engine you will agree with me. There cool and all but there are so many peramiters its crazy. But yeah they can make a huge diferentce in a jump or when you shoot. You can also add a small jump noice or soundeffects for shooting. Lets your mind run wild\n</code></pre>\n<p>All in all these are some simple things that I need to work on that I though I would share. Lets see if anyone is even reading this …</p>\n",
       "id": 1
-    },
-    {
-      "path": "second-post.md",
-      "url": "second-post.html",
-      "content": "## This is the seond post\nI love using markdown",
-      "html": "<h2 id=\"this-is-the-seond-post\">This is the seond post <a class=\"heading-anchor-permalink\" href=\"#this-is-the-seond-post\">#</a></h2>\n<p>I love using markdown</p>\n",
-      "id": 2
     }
   ]
 }
