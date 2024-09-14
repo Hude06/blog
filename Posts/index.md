@@ -1,4 +1,4 @@
-# Jude Makes - The Lost Devloper
+# Jude Makes - The Lost Developer
 
 ### Hey guys, So this is my blog. Yeah ... another blog. Lets see if I stick to it this time.
 
