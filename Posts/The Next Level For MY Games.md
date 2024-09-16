@@ -1,3 +1,4 @@
+## 9/15/24 
 ## Hey, So today I was thinking about whats the next thing I should be working on to get my game development to the next level. 
 ### So I did some research. 
 ## Art
