@@ -5,12 +5,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs": "markdown-folder-to-html MD",
-    "build": "markdown-folder-to-html MD"
+    "build": "markdown-folder-to-html MD && node build.js && http-server ./_MD -o"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "markdown-folder-to-html": "^2.4.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "http-server": "^14.1.1"
   }
 }
