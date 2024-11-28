@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs": "markdown-folder-to-html Posts",
-    "build": "markdown-folder-to-html Posts"
+    "docs": "markdown-folder-to-html MD",
+    "build": "markdown-folder-to-html MD"
   },
   "author": "",
   "license": "ISC",
